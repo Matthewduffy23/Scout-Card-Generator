@@ -494,7 +494,7 @@ def generate_card(cfg, df_league):
 
     # BEST ROLE header
     ax.text(frx, fry, "BEST ROLE", fontsize=11, fontweight="900",
-            color="#ffffff", va="top", zorder=5, letter_spacing=2)
+            color="#ffffff", va="top", zorder=5)
     fry += 22
 
     roles = cfg.get("roles", [])
